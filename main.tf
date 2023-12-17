@@ -31,7 +31,7 @@ module "ec2_instance" {
 
   ami                    = "ami-058bd2d568351da34"
   instance_type          = "t2.micro"
-  key_name               = "vockey"
+  key_name               = ""
   monitoring             = true
   vpc_security_group_ids = [module.pointer_sg.security_group_id]
   subnet_id              = var.subnet_id
