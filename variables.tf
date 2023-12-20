@@ -4,6 +4,6 @@ variable vpc_id {
 }
 
 variable subnet_id {
-        = string
+  type        = string
   description = "Informe sua subnet id"
 }
